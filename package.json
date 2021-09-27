@@ -1,0 +1,24 @@
+{
+  "name": "promisification",
+  "version": "1.0.0",
+  "description": "Напиши функцию `delay(ms)`, которая возвращает промис, переходящий в состояние\r `\"resolved\"` через `ms` миллисекунд. Значением исполнившегося промиса должно\r быть то кол-во миллисекунд которое передали во время вызова функции `delay`.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prybula-roman/goit-js-hw-11-promisification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prybula-roman/goit-js-hw-11-promisification/issues"
+  },
+  "homepage": "https://github.com/prybula-roman/goit-js-hw-11-promisification#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
