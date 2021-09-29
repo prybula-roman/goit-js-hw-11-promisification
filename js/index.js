@@ -1,64 +1,6 @@
 import { users } from "./users.js";
-console.log(users);
-/*
-const promise = new Promise((resolve, reject) => {
-  const rez = Math.random() > 0.5;
-  console.log(rez);
-  setTimeout(() => {
-    if (rez) {
-      resolve("promise  OK");
-    } else {
-      reject("promise  error");
-    }
-  }, 1000);
-});
-promise
-  .then((rez) => {
-    //  console.log("then");
-    console.log(console.log("1 :", rez));
-    return 10;
-  })
-  .then((rez) => {
-    console.log(console.log("2 :", rez));
-    return rez;
-  })
-  .catch((rez) => {
-    // console.log("catch");
-    console.error(rez);
-    return rez;
-  });
-*/
-/*
-const promise = new Promise((resolve, reject) => {
-  const rez = Math.random() > 0.5;
-  setTimeout(() => {
-    if (rez) {
-      resolve(5);
-    } else {
-      reject("promise  error");
-    }
-  }, 2000);
-});
-
-promise
-  .then((value) => {
-    console.log(value); // 5
-    return value * 2;
-  })
-  .then((value) => {
-    console.log(value); // 10
-    return value * 3;
-  })
-  .then((value) => {
-    console.log(value); // 30
-  })
-  .catch((error) => {
-    console.log(error);
-  })
-  .finally(() => {
-    console.log("Final task");
-  });
-*/
+console.log("#########################################");
+//========================1=================================
 const delay = (ms) => {
   // Твой код
   const promise = new Promise((resolve) => {
@@ -72,21 +14,12 @@ const logger = (time) => console.log(`Resolved after ${time}ms`);
 delay(2000).then(logger);
 delay(1000).then(logger);
 delay(1500).then(logger);
-/*
-const toggleUserState = (allUsers, userName, callback) => {
-  const updatedUsers = allUsers.map(user =>
-    user.name === userName ? { ...user, active: !user.active } : user,
-  );
 
-  callback(updatedUsers);
-};
-*/
-//logger = (updatedUsers) => console.table(updatedUsers);
+//===========================2===================================
 const toggleUserState = (allUsers, userName) => {
   const updatedUsers = allUsers.map((user) =>
     user.name === userName ? { ...user, active: !user.active } : user
   );
-  console.log(toggleUserState);
   const promise = new Promise((resolve) => {
     resolve(updatedUsers);
   });
@@ -94,6 +27,44 @@ const toggleUserState = (allUsers, userName) => {
 };
 
 const logger_2 = (updatedUsers) => console.table(updatedUsers);
-//console.log("toggleUserState:", toggleUserState(users, "Mano"));
 toggleUserState(users, "Mango").then(logger_2);
 toggleUserState(users, "Lux").then(logger_2);
+toggleUserState(users, "Ajax").then(logger_2);
+//=============================3=================================
+
+const randomIntegerFromInterval = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+};
+const makeTransaction = (transaction /*, onSuccess, onError*/) => {
+  const delay = randomIntegerFromInterval(200, 500);
+  console.log("makeTransaction::delay=", delay);
+  console.log("transaction.id=", transaction.id);
+  console.log("transaction.amount=", transaction.amount);
+  const promise = new Promise((onSuccess, onError) => {
+    setTimeout(() => {
+      const canProcess = Math.random() > 0.3;
+      if (canProcess) {
+        onSuccess(transaction.id, delay);
+      } else {
+        onError(transaction.id);
+      }
+    }, delay);
+  });
+  return promise;
+};
+
+const logSuccess = (id, time) => {
+  console.log(`Transaction ${id} processed in ${time}ms`);
+};
+
+const logError = (id) => {
+  console.warn(`Error processing transaction ${id}. Please try again later.`);
+};
+makeTransaction({ id: 70, amount: 150 });
+makeTransaction({ id: 70, amount: 150 }).then(logSuccess).catch(logError);
+
+makeTransaction({ id: 71, amount: 230 }).then(logSuccess).catch(logError);
+
+makeTransaction({ id: 72, amount: 75 }).then(logSuccess).catch(logError);
+
+makeTransaction({ id: 73, amount: 100 }).then(logSuccess).catch(logError);

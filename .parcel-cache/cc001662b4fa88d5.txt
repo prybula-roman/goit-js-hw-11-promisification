@@ -36,7 +36,7 @@
 159C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\postcss-modules\node_modules\postcss\lib\stringifier.js132772217950256471 0
 124C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\posthtml-render\dist132772217838529360 1
 119C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\mkdirp\index.js132772217803007133 0
-95C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist132773108887040675 1
+95C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist132773868095165251 1
 127C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\whatwg-url\lib\infra.js132772217736667997 0
 139C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\which-boxed-primitive\.eslintignore132772217749278216 0
 116C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\setimmediate132772217751967281 1
@@ -47,7 +47,7 @@
 112C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\boolbase132772217752167574 1
 126C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\nth-check\package.json132772217822592972 0
 119C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\lodash\fp\gt.js132772218110862359 0
-101C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\index.html132772221695359572 0
+101C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\index.html132773830697857085 0
 135C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\string.prototype.trimstart\test132772217874162712 1
 153C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\jsdom\lib\jsdom\living\generated\ScrollOptions.js132772218093997599 0
 127C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\snapdragon\package.json132772217732831279 0
@@ -4401,7 +4401,7 @@
 158C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\escodegen\node_modules\source-map\lib\binary-search.js132772217872395379 0
 130C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\tweetnacl\nacl-fast.min.js132772217874794019 0
 155C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\parse5\lib\extensions\location-info\parser-mixin.js132772217921326107 0
-113C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.b08efe51.js132773108886524169 0
+113C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.b08efe51.js132773868095095246 0
 124C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\async\rejectLimit.js132772219041033741 0
 165C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\postcss-modules-values\node_modules\color-name\.eslintrc.json132772217833532287 0
 121C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\tweetnacl\nacl.js132772217884308996 0
@@ -13936,7 +13936,7 @@
 140C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\core-js\internals\define-iterator.js132772218084310083 0
 155C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\caniuse-lite\data\features\font-family-system-ui.js132772218083060060 0
 149C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\core-js\internals\define-well-known-symbol.js132772218089935171 0
-117C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.b08efe51.js.map132773108887040675 0
+117C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.b08efe51.js.map132773868095145245 0
 148C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\core-js\internals\document-create-element.js132772218094310057 0
 137C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\caniuse-lite\data\features\let.js132772218109933153 0
 138C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\core-js\internals\dom-iterables.js132772218094778806 0
@@ -16541,5 +16541,5 @@
 114C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\.bin\uncss132772218297902321 0
 118C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\.bin\uncss.cmd132772218297902321 0
 114C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\node_modules\.bin\which132772218299152234 0
-102C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\js\index.js132773107978946871 0
-106C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.html132773071606353650 0
+102C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\js\index.js132773868092314104 0
+106C:\Users\pribula_ra\Desktop\my_projects\JS\javascript-homework\homework-11\promisification\dist\index.html132773830700579446 0
